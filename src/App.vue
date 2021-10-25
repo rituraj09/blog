@@ -1,20 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <Home data="Rituraj is here" msg="Hi, from Rituraj"/>
+  <!-- <Home data="Rituraj is here" msg="Hi, from Rituraj"/> -->
+  <div id="app">
+    <Index />
+  </div>
 </template>
+
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Home from './components/Home.vue'
-
+// import Home from './components/Home.vue'
+import Index from "./components/Index";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     // HelloWorld,
-    Home
-  }
-}
+    // Home,
+    Index,
+  },
+};
 </script>
 
 <style>
@@ -23,7 +28,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #2c3e50; 
 }
 </style>

@@ -1,0 +1,7 @@
+node -v
+npm -v
+npm install -g @vue/cli 	---- to install CLI
+vue --version
+vue create Project Name      ----------to create a project
+run npm serve ----- run server
+vetur  ----------for color change/ detailing of .vue extension files
